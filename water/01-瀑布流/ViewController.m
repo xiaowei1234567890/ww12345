@@ -19,6 +19,7 @@ static NSString * const XMGShopId = @"shop";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIView *v=[[UIView alloc]init];
     
     // 创建布局
     XMGWaterflowLayout *layout = [[XMGWaterflowLayout alloc] init];
